@@ -1,7 +1,14 @@
-####################################### 
-## Python Web Development Techdegree ##
-## Project 1 - Number Guessing Game  ##
-#######################################
+# Python Web Development Techdegree 
+# Project 1 - Number Guessing Game 
+
+############################################################################################################
+## This program is a guessing game that has the user guessing a random number between
+## two numbers until correct, displaying a congratulatory message
+## Then the program will ask the user if they wish to play again
+## If yes, then the game will begin again and display the [HIGH SCORE], which is the lower number of guesses 
+## needed to guess the random number
+## If no or anything else, then the game will exit with a goodbye
+############################################################################################################
 
 ## import random, so we can use it to generate random numbers
 import random
