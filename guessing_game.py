@@ -95,13 +95,13 @@ def start_game():
                 print("\n-- The [HIGH SCORE] to beat is {}.  ROCK STAR!  You can't get any better than that!".format(high_score[0]))
                 loop_through_game()
             else:
-                print("\n-- The [HIGH SCORE] to beat is {}.  That should be a \N{BIRTHDAY CAKE} walk for you!".format(high_score[0]))
+                print("\n-- The [HIGH SCORE] to beat is {}.  Good luck!".format(high_score[0]))
                 print(border_line)
                 loop_through_game()
         else:
             print()
             print(border_line)
-            print("Sorry to see you go!  Let's play again soon.  Here's a \N{TACO}!")
+            print("Sorry to see you go!  Let's play again soon!")
             print(border_line)
             break
             
